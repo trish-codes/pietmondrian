@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Draggable Dual-View Slideshow</title>
+		<meta name="description" content="Piet Mondrian" />
+		<meta name="keywords" content="Piet Mondrian" />
+		<meta name="author" content="Piet Mondarian " />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header id="header" class="co-header">
+				<span class="message">This mobile version does not have the slideshow switch</span>
+				<button class="slider-switch">Switch view</button>
+			</header>
+			<div id="overlay" class="overlay">
+				<div class="info">
+					<h2>Demo interactions</h2>
+					<span class="info-drag">Drag Sliders</span>
+					<span class="info-keys">Use Arrows</span>
+					<span class="info-switch">Switch view</span>
+					<button>Got it!</button>	
+				</div>
+			</div>
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+						<div class="slide" data-content="content-1">
+							<div class="img-wrap"><img src="img/1.jpg" alt="img1"/></div>
+							<h2>Piet Mondrian<span>The truly modern artist is aware of abstraction in an emotion of beauty.</span></h2>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-2">
+							<div class="img-wrap"><img src="img/2.jpg" alt="img2"/></div>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-3">
+							<div class="img-wrap"><img src="img/3.jpg" alt="img3"/></div>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/4.jpg" alt="img4"/></div>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-5">
+							<div class="img-wrap"><img src="img/5.jpg" alt="img5"/></div>
+							<button class="content-switch">Read more</button>
+						</div>
+						<div class="slide" data-content="content-6">
+							<div class="img-wrap"><img src="img/6.jpg" alt="img6"/></div>
+							<button class="content-switch">Read more</button>
+						</div>
+                        <div class="slide" data-content="content-7">
+							<div class="img-wrap"><img src="img/7.jpg" alt="img7"/></div>
+							<button class="content-switch">Read more</button>
+						</div>
+					</div>
+				</section><!-- /img-dragger-->
+				<!-- Content section -->
+				<section class="pages">
+					<div class="content" data-content="content-1">
+						<h2>Biography<span>Piet Mondarian</span></h2>
+                        <p style = "font-family: 'Yanone Kaffeesatz', sans-serif;">Mondrian was born in Amersfoort in the Netherlands, the second of his parents' children. He was descended from Christian Dirkzoon Monderyan who lived in The Hague as early as 1670. The family moved to Winterswijk in the east of the country when his father, Pieter Cornelius Mondriaan, was appointed Head Teacher at a local primary school. Mondrian was introduced to art from a very early age. His father was a qualified drawing teacher, and, with his uncle, Fritz Mondriaan (a pupil of Willem Maris of the Hague School of artists), the younger Piet often painted and drew along the river Gein.<br><br>
+                        
+                        After a strictly Protestant upbringing, in 1892, Mondrian entered the Academy for Fine Art in Amsterdam. He already was qualified as a teacher. He began his career as a teacher in primary education, but he also practiced painting. Most of his work from this period is naturalistic or Impressionistic, consisting largely of landscapes. These pastoral images of his native country depict windmills, fields, and rivers, initially in the Dutch Impressionist manner of the Hague School and then in a variety of styles and techniques that attest to his search for a personal style. These paintings are most definitely representational, and they illustrate the influence that various artistic movements had on Mondrian, including pointillism and the vivid colors of Fauvism. Mondrian's earliest paintings showing a degree of abstraction are a series of canvases from 1905 to 1908 that depict dim scenes of indistinct trees and houses reflected in still water. Although the result leads the viewer to begin focusing on the forms over the content, these paintings are still firmly rooted in nature, and it is only the knowledge of Mondrian's later achievements that leads one to search in these works for the roots of his future abstraction. Mondrian's art was intimately related to his spiritual and philosophical studies.                         
+						<p class="related">
+                            <a href="http://www.theartstory.org/">Inspiration for Art</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-2">
+						<h2>Tree I<span> 1911-1912</span></h2>
+                       <p class="related">
+                            <a href="http://www.piet-mondrian.org/the-gray-tree.jsp">More info: Tree I</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-3">
+						<h2>Still Life in Gingerpot I<span>1912</span></h2>
+                        <p class="related">
+                            <a href="http://www.piet-mondrian.org/the-still-life-with-gingerpot-2.jsp">More Info: Still Life</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-4">
+						<h2>Tableau No. 2<span>1913</span></h2>
+					   <p class="related">
+                            <a href="http://www.piet-mondrian.org/the-still-life-with-gingerpot-2.jsp">More Info: Tableau</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-5">
+						<h2>Composition 8<span>1914</span></h2>
+						  <p class="related">
+                            <a href="http://www.piet-mondrian.org/the-still-life-with-gingerpot-2.jsp">More Info: Composition 8</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-6">
+						<h2>Victory Boogie Woogie<span>1942-1944</span></h2>
+					     <p class="related">
+                            <a href="http://www.piet-mondrian.org/the-still-life-with-gingerpot-2.jsp">More Info: Victory</a>
+						</p>
+					</div>
+					<div class="content" data-content="content-7">
+						<h2>Broadway Boogie Woogie<span>1942-1943</span></h2>
+						  <p class="related">
+                            <a href="http://www.piet-mondrian.org/the-still-life-with-gingerpot-2.jsp">More Info: Broadway</a>
+						</p>
+					</div>
+				</section>
+			</div>
+		</div><!-- /container --> 
+		<script src="js/dragdealer.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/dragslideshow.js"></script>
+		<script>
+			(function() {
+
+				var overlay = document.getElementById( 'overlay' ),
+					overlayClose = overlay.querySelector( 'button' ),
+					header = document.getElementById( 'header' )
+					switchBtnn = header.querySelector( 'button.slider-switch' ),
+					toggleBtnn = function() {
+						if( slideshow.isFullscreen ) {
+							classie.add( switchBtnn, 'view-maxi' );
+						}
+						else {
+							classie.remove( switchBtnn, 'view-maxi' );
+						}
+					},
+					toggleCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.add( header, 'hide' );
+						}
+					},
+					toggleCompleteCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.remove( header, 'hide' );
+						}
+					},
+					slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+						// toggle between fullscreen and minimized slideshow
+						onToggle : toggleBtnn,
+						// toggle the main image and the content view
+						onToggleContent : toggleCtrls,
+						// toggle the main image and the content view (triggered after the animation ends)
+						onToggleContentComplete : toggleCompleteCtrls
+					}),
+					toggleSlideshow = function() {
+						slideshow.toggle();
+						toggleBtnn();
+					},
+					closeOverlay = function() {
+						classie.add( overlay, 'hide' );
+					};
+
+				// toggle between fullscreen and small slideshow
+				switchBtnn.addEventListener( 'click', toggleSlideshow );
+				// close overlay
+				overlayClose.addEventListener( 'click', closeOverlay );
+
+			}());
+		</script>
+	</body>
+</html>
